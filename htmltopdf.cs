@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Shared
 {
-    public static class htmlTopdf
+    public static class HtmlToPdf
     {
         public static Task<FileStreamResult> HtmlToPdf(string html, IWebHostEnvironment env)
         {
